@@ -12,8 +12,8 @@ sed -i -e "s/robbyrussell/agnoster/g" ~/.zshrc
 cp ~/termux-setup-basic/fonts/font.ttf ~/.termux/
 
 #touch keyboard
-mkdir .termux
-touch termux.properties
+#mkdir ~/.termux
+#touch ~/.termux/termux.properties
 echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" > ~/.termux/termux.properties
 
 #banner
