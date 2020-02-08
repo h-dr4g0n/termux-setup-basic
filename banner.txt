@@ -1,9 +1,11 @@
 #Copy text to file $PREFIX/etc/zshrc
 clear
 cowsay -f eyes @hydra2ker | lolcat
-echo -n "\e[0;32mAuthor(Developer):\e[m\t"
-echo "@hydra2ker" | lolcat
-echo -n "\e[0;32mToday:\e[m\t\t"
-date | lolcat
-echo -n "\e[0;32mKernel Information:\e[m\t"
-uname -r | lolcat
+echo -n "\e[0;32m"
+echo -n "Author(Developer):\t"
+echo "@hydra2ker"
+echo -n "Today:\t\t\t"
+date
+echo -n "Kernel Information:\t"
+uname -r
+echo -n "\e[m"
