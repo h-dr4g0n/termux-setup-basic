@@ -21,10 +21,13 @@ echo "clear" >> $PREFIX/etc/zshrc
 
 echo "cowsay -f eyes @hydra2ker | lolcat" >> $PREFIX/etc/zshrc
 
-echo "echo -n "\e[0;32mToday It:\e[m\t\t"" >> $PREFIX/etc/zshrc
+echo "10000" >> $PREFIX/etc/zshrc
+sed -i 's/10000/echo -n "\e[0;32mToday It:\e[m\t\t"/g' >> $PREFIX/etc/zshrc
 
 echo "date | lolcat" >> $PREFIX/etc/zshrc
 
-echo "echo -n "\e[0;32mKernel Information:\e[m\t"" >> $PREFIX/etc/zshrc
+echo "10001" >> $PREFIX/etc/zshrc
+
+sed -i 's/10001/echo -n "\e[0;32mKernel Information:\e[m\t"/g' >> $PREFIX/etc/zshrc
 
 echo "uname -r | lolcat" >> $PREFIX/etc/zshrc
