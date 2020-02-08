@@ -1,0 +1,7 @@
+#Copy text to file $PREFIX/etc/zshrc
+clear
+cowsay -f eyes @hydra2ker | lolcat
+echo -n "\e[0;32mToday It:\e[m\t\t"
+date | lolcat
+echo -n "\e[0;32mKernel Information:\e[m\t"
+uname -r | lolcat
