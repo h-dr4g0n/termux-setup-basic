@@ -6,7 +6,7 @@ pkg upgrade -y
 pkg install zsh curl git vim -y
 #pkg install ruby cowsay
 #install lolcat ...
-gem install lolcat
+#gem install lolcat
 #install and setup basic oh-my-zsh ...
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 #set theme oh-my-zsh
